@@ -21,7 +21,20 @@ body {
 .container {
   font-family: "Open sans", san-serif;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center; }
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-self: center; }
+  .images__logo {
+    align-self: start;
+    margin-top: 4rem;
+    margin-bottom: 8rem; }
+  .images__mockup {
+    align-self: center;
+    width: 80vw; }
 
 h1, h2, h3 {
   font-family: "Poppins", san-serif; }

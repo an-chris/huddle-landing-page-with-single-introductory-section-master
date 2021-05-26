@@ -35,6 +35,30 @@ body {
 	font-family: $body-font;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+
+}
+
+.images {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	
+
+	&__logo {
+		align-self: start;
+		margin-top: 4rem;
+		margin-bottom: 8rem;
+	}
+
+	&__mockup {
+		align-self: center;
+		width: 80vw;
+	}
+}
+
+.text {
+
 }
 
 h1, h2, h3 {
