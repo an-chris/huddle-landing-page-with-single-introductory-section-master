@@ -20,8 +20,8 @@ body {
 
 .container {
   font-family: "Open sans", san-serif;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(1fr, 500px)); }
+  display: flex;
+  flex-direction: column; }
 
 h1, h2, h3 {
   font-family: "Poppins", san-serif; }
