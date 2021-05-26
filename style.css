@@ -1,0 +1,27 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+@import url(https://fonts.google.com/specimen/Open+Sans);
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+.container {
+  font-family: "Open sans", san-serif; }
+
+h1, h2, h3 {
+  font-family: "Poppins", san-serif; }
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center; }
+
+.attribution a {
+  color: #674baf; }
+
+/*# sourceMappingURL=style.css.map */
