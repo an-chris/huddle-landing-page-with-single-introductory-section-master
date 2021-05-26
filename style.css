@@ -15,7 +15,7 @@ body {
   background-image: url(../images/bg-mobile.svg);
   background-color: #674baf;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   color: #fff; }
 
 .container {
