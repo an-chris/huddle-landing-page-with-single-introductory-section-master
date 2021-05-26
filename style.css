@@ -58,14 +58,16 @@ body {
 h2 {
   font-family: "Poppins", san-serif; }
 
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0; }
+
 .attribution {
   font-size: 1.1rem;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  bottom: 1%; }
+  text-align: center; }
 
 .attribution a {
-  color: #674baf; }
+  color: #e882e8; }
 
 /*# sourceMappingURL=style.css.map */

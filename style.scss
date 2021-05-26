@@ -92,14 +92,16 @@ h2 {
 
 // Attribution
 
+footer {
+	position:absolute;
+	width: 100%;
+ 	bottom:0;
+}
 .attribution {
 	font-size: 1.1rem;
 	text-align: center;
-	position: fixed;
-	width: 100%;
-	bottom: 1%;
 }
 
 .attribution a {
-	color: $purple;
+	color: $pink;
 }
