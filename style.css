@@ -11,8 +11,17 @@ html {
   box-sizing: border-box;
   font-size: 62.5%; }
 
+body {
+  background-image: url(../images/bg-mobile.svg);
+  background-color: #674baf;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff; }
+
 .container {
-  font-family: "Open sans", san-serif; }
+  font-family: "Open sans", san-serif;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1fr, 500px)); }
 
 h1, h2, h3 {
   font-family: "Poppins", san-serif; }

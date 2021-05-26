@@ -23,8 +23,18 @@ html {
 	font-size: 62.5%; // 1rem = 10px;
 }
 
+body {
+	background-image: url(../images/bg-mobile.svg);
+	background-color: $purple;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
 .container {
 	font-family: $body-font;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(1fr, 500px));
 }
 
 h1, h2, h3 {
