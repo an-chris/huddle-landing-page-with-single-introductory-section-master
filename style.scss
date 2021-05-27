@@ -143,9 +143,13 @@ body {
 		padding: 1.2rem 5rem;
 		background-color: #fff;
 		border-radius: 200px;
-		align-self: start;
+		align-self: center;
 		box-shadow: .2rem .7rem .6rem rgba(#000, .4);
 		margin-top: 3rem;
+
+		@media only screen and (min-width: $bp-large) {
+			align-self: start;
+		}
 	}
 
 }
