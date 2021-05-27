@@ -92,6 +92,17 @@ body {
     @media only screen and (min-width: 75em) {
       .text__paragraph {
         margin-top: 2rem; } }
+  .text__button:link, .text__button:visited {
+    display: block;
+    text-decoration: none;
+    color: #674baf;
+    font-size: 1.2rem;
+    padding: 1.2rem 5rem;
+    background-color: #fff;
+    border-radius: 200px;
+    align-self: start;
+    box-shadow: 0.2rem 0.7rem 0.6rem rgba(0, 0, 0, 0.4);
+    margin-top: 3rem; }
 
 footer {
   position: relative;
