@@ -10,12 +10,6 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
-  @media only screen and (min-width: 50em) {
-    html {
-      font-size: 75%; } }
-  @media only screen and (min-width: 75em) {
-    html {
-      font-size: 90%; } }
 
 body {
   background-image: url(../images/bg-mobile.svg);
@@ -23,48 +17,25 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   color: #fff; }
-  @media only screen and (min-width: 75em) {
-    body {
-      background-image: url(../images/bg-desktop.svg);
-      background-size: cover;
-      height: 100vh; } }
 
 .container {
   font-family: "Open sans", san-serif;
   display: flex;
   flex-direction: column; }
-  @media only screen and (min-width: 75em) {
-    .container {
-      justify-content: space-around;
-      align-items: center;
-      flex-direction: row;
-      height: 80vh; } }
 
 .images {
   display: flex;
   flex-direction: column;
   align-self: center;
   width: 80vw; }
-  @media only screen and (min-width: 75em) {
-    .images {
-      width: 45vw; } }
   .images__logo {
     align-self: start;
     margin-top: 4rem;
     margin-bottom: 8rem;
     width: 45%; }
-    @media only screen and (min-width: 75em) {
-      .images__logo {
-        margin-bottom: 5rem;
-        margin-top: 0; } }
   .images__mockup {
     align-self: center;
     width: 80vw; }
-    @media only screen and (min-width: 75em) {
-      .images__mockup {
-        flex-direction: row;
-        width: 40vw;
-        height: 55vh; } }
 
 .text {
   display: flex;
@@ -75,11 +46,6 @@ body {
   margin-top: 8rem;
   text-align: center;
   line-height: 1.5; }
-  @media only screen and (min-width: 75em) {
-    .text {
-      width: 40vw;
-      margin-top: 6rem;
-      align-self: center; } }
   .text__heading {
     font-size: 2.5rem;
     font-weight: 600;
@@ -89,9 +55,6 @@ body {
     font-family: "Open sans", san-serif;
     font-size: 1.5rem;
     color: #f1f1f1; }
-    @media only screen and (min-width: 75em) {
-      .text__paragraph {
-        margin-top: 2rem; } }
 
 footer {
   position: relative;
