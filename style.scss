@@ -12,7 +12,8 @@ $body-font: 'Open sans', san-serif;
 
 
 // Breakpoints
-
+$bp-medium: 50em; //800px
+$bp-large: 75em; //1200px
 
 *,
 *::after,
@@ -25,6 +26,15 @@ $body-font: 'Open sans', san-serif;
 html {
 	box-sizing: border-box;
 	font-size: 62.5%; // 1rem = 10px;
+
+	@media only screen and (min-width: $bp-medium) {
+		font-size: 75%;
+	}
+
+	@media only screen and (min-width: $bp-large) {
+		font-size: 90%;
+	}
+
 }
 
 body {
@@ -33,12 +43,25 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #fff;
+
+	@media only screen and (min-width: $bp-large) {
+		background-image: url(../images/bg-desktop.svg);
+		background-size: cover;
+		height: 100vh;
+	}
 }
 
 .container {
 	font-family: $body-font;
 	display: flex;
 	flex-direction: column;
+
+	@media only screen and (min-width: $bp-large) {
+		justify-content: space-around;
+		align-items: center;
+		flex-direction: row;
+		height: 80vh;
+	}
 }
 
 .images {
@@ -47,17 +70,32 @@ body {
 	align-self: center;
 	width: 80vw;
 
+	@media only screen and (min-width: $bp-large) {
+		width: 45vw;
+	}
+
 
 	&__logo {
 		align-self: start;
 		margin-top: 4rem;
 		margin-bottom: 8rem;
 		width: 45%;
+
+		@media only screen and (min-width: $bp-large) {
+			margin-bottom: 5rem;
+			margin-top: 0;
+		}
 	}
 
 	&__mockup {
 		align-self: center;
 		width: 80vw;
+
+		@media only screen and (min-width: $bp-large) {
+			flex-direction: row;
+			width: 40vw;
+			height: 55vh;
+		}
 	}
 }
 
@@ -71,11 +109,18 @@ body {
 	text-align: center;
 	line-height: 1.5;
 
+	@media only screen and (min-width: $bp-large) {
+		width: 40vw;
+		margin-top: 6rem;
+		align-self: center;
+	}
+
 
 	&__heading {
 		font-size: 2.5rem;
 		font-weight: 600;
 		font-family: $heading-font;
+
 	}
 
 	&__paragraph {
@@ -83,6 +128,10 @@ body {
 		font-family: $body-font;
 		font-size: 1.5rem;
 		color: #f1f1f1;
+
+		@media only screen and (min-width: $bp-large) {
+			margin-top: 2rem;
+		}
 	}
 
 }
@@ -93,6 +142,7 @@ footer {
 	position: relative;
 	margin-top: 8rem;
 }
+
 
 .attribution {
 	font-size: 1.1rem;
