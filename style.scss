@@ -159,6 +159,10 @@ body {
 footer {
 	position: relative;
 	margin-top: 8rem;
+
+	@media only screen and (min-width: $bp-large) {
+		margin-top: 11rem;
+	}
 }
 
 
