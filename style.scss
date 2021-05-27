@@ -154,16 +154,55 @@ body {
 
 }
 
+.icons {
+	display: flex;
+	margin: 0 auto;
+	width: 85vw;
+	justify-content: center;
+	margin-top: 4rem;
+
+	@media only screen and (min-width: $bp-large) {
+		justify-content: flex-end;
+	}
+
+}
+
+.fa {
+	font-size: 1.5rem;
+	border: 2px solid #fff;
+	border-radius: 100%;
+	padding: .5rem;
+
+	@media only screen and (min-width: $bp-large) {
+		padding: .8rem;
+	}
+
+	&:not(:last-child) {
+		margin-right: 1.5rem;
+
+		@media only screen and (min-width: $bp-large) {
+			margin-right: 3rem;
+		}
+	}
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
 
 // Attribution
 footer {
 	position: relative;
-	margin-top: 8rem;
+	margin-top: 2rem;
+	height: 4rem;
 
 	@media only screen and (min-width: $bp-large) {
-		margin-top: 11rem;
+		margin-top: 3rem;
 	}
 }
+
+
 
 
 .attribution {

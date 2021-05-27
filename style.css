@@ -107,12 +107,39 @@ body {
       .text__button:link, .text__button:visited {
         align-self: start; } }
 
+.icons {
+  display: flex;
+  margin: 0 auto;
+  width: 85vw;
+  justify-content: center;
+  margin-top: 4rem; }
+  @media only screen and (min-width: 75em) {
+    .icons {
+      justify-content: flex-end; } }
+
+.fa {
+  font-size: 1.5rem;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  padding: .5rem; }
+  @media only screen and (min-width: 75em) {
+    .fa {
+      padding: .8rem; } }
+  .fa:not(:last-child) {
+    margin-right: 1.5rem; }
+    @media only screen and (min-width: 75em) {
+      .fa:not(:last-child) {
+        margin-right: 3rem; } }
+  .fa:hover {
+    cursor: pointer; }
+
 footer {
   position: relative;
-  margin-top: 8rem; }
+  margin-top: 2rem;
+  height: 4rem; }
   @media only screen and (min-width: 75em) {
     footer {
-      margin-top: 11rem; } }
+      margin-top: 3rem; } }
 
 .attribution {
   font-size: 1.1rem;
